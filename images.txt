@@ -17,5 +17,7 @@
 #opencoze/opencoze:latest
 #kbudde/rabbitmq-exporter
 #bitnami/mongodb-exporter:latest
---platform=linux/amd64 elasticsearch:8.19.3
---platform=linux/arm64 elasticsearch:8.19.3
+#--platform=linux/amd64 elasticsearch:8.19.3
+#--platform=linux/arm64 elasticsearch:8.19.3
+--platform=linux/amd64 ubuntu:24.04
+--platform=linux/arm64 ubuntu:24.04
