@@ -25,23 +25,25 @@
 #--platform=linux/arm64 ubuntu:22.04
 # dify-1.9.1
 # amd64
---platform=linux/amd64 postgres:15-alpine
---platform=linux/amd64 nginx:latest
---platform=linux/amd64 langgenius/dify-api:1.9.1
---platform=linux/amd64 langgenius/dify-plugin-daemon:0.3.0-local
---platform=linux/amd64 langgenius/dify-web:1.9.1
---platform=linux/amd64 ubuntu/squid:latest
---platform=linux/amd64 langgenius/dify-sandbox:0.2.12
---platform=linux/amd64 semitechnologies/weaviate:1.19.0
---platform=linux/amd64 redis:6-alpine
-# arm64
---platform=linux/arm64 postgres:15-alpine
---platform=linux/arm64 nginx:latest
---platform=linux/arm64 langgenius/dify-api:1.9.1
---platform=linux/arm64 langgenius/dify-plugin-daemon:0.3.0-local
---platform=linux/arm64 langgenius/dify-web:1.9.1
---platform=linux/arm64 ubuntu/squid:latest
---platform=linux/arm64 langgenius/dify-sandbox:0.2.12
---platform=linux/arm64 semitechnologies/weaviate:1.19.0
---platform=linux/arm64 redis:6-alpine
+# --platform=linux/amd64 postgres:15-alpine
+# --platform=linux/amd64 nginx:latest
+# --platform=linux/amd64 langgenius/dify-api:1.9.1
+# --platform=linux/amd64 langgenius/dify-plugin-daemon:0.3.0-local
+# --platform=linux/amd64 langgenius/dify-web:1.9.1
+# --platform=linux/amd64 ubuntu/squid:latest
+# --platform=linux/amd64 langgenius/dify-sandbox:0.2.12
+# --platform=linux/amd64 semitechnologies/weaviate:1.19.0
+# --platform=linux/amd64 redis:6-alpine
+# # arm64
+# --platform=linux/arm64 postgres:15-alpine
+# --platform=linux/arm64 nginx:latest
+# --platform=linux/arm64 langgenius/dify-api:1.9.1
+# --platform=linux/arm64 langgenius/dify-plugin-daemon:0.3.0-local
+# --platform=linux/arm64 langgenius/dify-web:1.9.1
+# --platform=linux/arm64 ubuntu/squid:latest
+# --platform=linux/arm64 langgenius/dify-sandbox:0.2.12
+# --platform=linux/arm64 semitechnologies/weaviate:1.19.0
+# --platform=linux/arm64 redis:6-alpine
+ --platform=linux/amd64 xprobe/xinference
+ --platform=linux/arm64 xprobe/xinference
 
