@@ -44,6 +44,8 @@
 # --platform=linux/arm64 langgenius/dify-sandbox:0.2.12
 # --platform=linux/arm64 semitechnologies/weaviate:1.19.0
 # --platform=linux/arm64 redis:6-alpine
- --platform=linux/amd64 xprobe/xinference
- --platform=linux/arm64 xprobe/xinference
+# --platform=linux/amd64 xprobe/xinference
+# --platform=linux/arm64 xprobe/xinference
+ --platform=linux/amd64 mongo:5.0.32
+ --platform=linux/arm64 mongo:5.0.32
 
