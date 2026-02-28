@@ -46,6 +46,8 @@
 # --platform=linux/arm64 redis:6-alpine
 # --platform=linux/amd64 xprobe/xinference
 # --platform=linux/arm64 xprobe/xinference
- --platform=linux/amd64 mongo:5.0.32
- --platform=linux/arm64 mongo:5.0.32
+# --platform=linux/amd64 mongo:5.0.32
+# --platform=linux/arm64 mongo:5.0.32
+--platform=linux/amd64 docker.1ms.run/polardbx/polardb-x:v2.4.2_5.4.19-20250825
+--platform=linux/arm64 docker.1ms.run/polardbx/polardb-x:v2.4.2_5.4.19-20250825
 
