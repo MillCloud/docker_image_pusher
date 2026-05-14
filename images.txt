@@ -52,4 +52,5 @@
 #--platform=linux/arm64 docker.1ms.run/polardbx/polardb-x:v2.4.2_5.4.19-20250825
 #openwebui/open-webui:0.8-cuda
 #nacos/nacos-server:v3.1.1
-nacos/nacos-server:v2.3.2
+#nacos/nacos-server:v2.3.2
+--platform=linux/arm64 nacos/nacos-server:v3.1.1
