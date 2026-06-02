@@ -57,5 +57,7 @@
 #--platform=linux/amd64 nacos/nacos-server:v3.1.1
 #--platform=linux/arm64 tonistiigi/binfmt
 #--platform=linux/amd64 tonistiigi/binfmt
---platform=linux/amd64 moby/buildkit:buildx-stable-1
---platform=linux/arm64 moby/buildkit:buildx-stable-1
+#--platform=linux/amd64 moby/buildkit:buildx-stable-1
+#--platform=linux/arm64 moby/buildkit:buildx-stable-1
+--platform=linux/amd64 ubuntu:24.04
+--platform=linux/arm64 ubuntu:24.04
