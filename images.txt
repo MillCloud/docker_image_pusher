@@ -59,5 +59,6 @@
 #--platform=linux/amd64 tonistiigi/binfmt
 #--platform=linux/amd64 moby/buildkit:buildx-stable-1
 #--platform=linux/arm64 moby/buildkit:buildx-stable-1
---platform=linux/amd64 ubuntu:24.04
---platform=linux/arm64 ubuntu:24.04
+#--platform=linux/amd64 ubuntu:24.04
+#--platform=linux/arm64 ubuntu:24.04
+--platform=bougou/alertmanager-webhook-adapter:v1.1.11
